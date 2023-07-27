@@ -1,0 +1,433 @@
+
+
+body
+{
+    background-image: url("../image/....jpg");
+	background-repeat:no-repeat;
+   background-size:100% 100%;
+}
+.row {
+	display: flex;
+	justify-content: space-between;
+	 background-color:rgba(11, 28, 31, 0.452);
+	 border-radius: 20px;
+}
+
+.center {
+	text-align: center;
+}
+
+.title {
+	margin-right:20px;
+	font-size: 36px;
+	color:#AED6F1  ;
+	font-family:"georgia",serif;
+}
+
+.sub-title {
+	font-size: 25px;
+	color:#5DADE2  ;
+}
+
+.signin {
+	border-radius:20px;
+	
+	text-align: center;
+	font-size: 15px;
+	padding: 5px 5px;
+	width: 100px;
+	height:30px;
+	cursor:pointer;
+	margin-top:60px;
+}
+.signin:hover{
+	font-weight:bold;
+}
+.register {
+	border-radius:20px;
+	
+	text-align: center;
+	font-size: 15px;
+	padding: 5px 5px;
+	width: 100px;
+	height:30px;
+	cursor:pointer;
+	margin-top:50px;
+	margin-right:20px;
+}
+.register:hover{
+	font-weight:bold;
+}
+
+
+
+.margin-bottom {
+	margin-bottom: 10px;
+}
+
+.search-bar {
+	border-radius:30px;
+	width: 350px;
+	height: 35px;
+	margin-left: 50px;
+	margin-top: 50px;
+	font-size:medium;
+	text-align:center;
+	font-size:large;
+	background-color:#ABB2B9;
+
+	
+}
+.search-bar:hover
+{
+	font-weight:bold;
+}
+.logo{
+	width:150px;
+	height:150px;
+	margin-left:20px;
+	margin-right:150px;
+	border-radius:10px;
+	margin-top:5px;
+	
+	
+}
+.profile
+{
+	width: 60px;
+	height:60px;
+	margin-right:30px;
+	margin-top:45px;
+	
+	cursor:pointer;
+}
+.navi  /*Navigation bar*/
+{
+    margin-left: 300px;
+    margin-right:100px;
+    font-weight: 500;
+    height: 70px;
+    width: 1200px;
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 20px;
+	margin-top:10px;
+
+}
+
+ 
+.home
+{
+  margin-right: 150px;
+  
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color:black ;
+  background-color: #81D4FA; 
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+.home:hover{
+	background-color: #1E88E5 ;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.category
+{
+  margin-right: 150px;
+  color:black ;
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  background-color:#81D4FA;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+.category:hover{
+	background-color: #1E88E5 ;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.contact
+{
+  margin-right: 150px;
+  color:black;
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  background-color: #81D4FA;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+.contact:hover{
+	background-color: #1E88E5;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.about
+{
+  margin-right: 150px;
+  color:black ;
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  background-color: #81D4FA;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+.about:hover{
+	background-color: #1E88E5;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+/*Middle table*/
+.cate-group .cate-type {
+  background-color: #4CAF50; /* Green */
+  border: 2px solid green;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  cursor: pointer;
+  width: 180px;
+  display: block;
+  margin-top: 15px;
+}
+
+.cate-group .cate-type:not(:last-child) {
+  border-bottom: none; /* Prevent double borders */
+}
+
+.cate-group .cate-type:hover {
+  background-color: #3e8e41;
+}
+.row1{
+	display: flex;
+	
+}
+
+.type{
+	width:1200px;
+	height:500px;
+	
+	margin-left:30px;
+	border-radius:10px;
+	margin-top:25px;
+}
+/*Book styles*/
+.booktable /*Book table*/
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1500px;
+    background-color:rgba(11, 28, 31, 0.452);
+    border-radius: 20px;
+}
+
+.bookf/*Book deails*/
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 52px;
+    margin-left: 42px;
+    width: 200px;
+    height: 460px;
+    border: 1px solid darkslategrey;
+    background-color:rgb(248, 252, 252);
+    border-radius: 20px;
+    
+    
+    
+}
+.bookf:hover
+{
+    box-shadow: 5px 5px  rgb(43, 42, 42);
+}
+.bname /*Book name*/
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.bookimg /*Book photo*/
+{
+  width: 170px;
+  height: 230px;
+  margin-left: 15px;
+  opacity: 0.8;
+  
+}
+
+.bookimg:hover
+{
+    opacity: 1.0;
+    height: 235px;
+}
+
+
+.price /*Book price*/
+{
+    text-align: center;
+    font-size: 20px;
+}
+
+.buy /*Buy button*/
+{
+   margin-left: 60px;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+   width: 75px;
+   height: 30px;
+   background-color:#FF0000;
+   cursor: pointer;
+    border-radius: 20px;
+	
+}
+
+.buy:hover
+{
+    
+    font-weight: bold;
+    
+}
+.adCart /*Add to Cart */
+{
+   margin-left: 45px;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+   width: 105px;
+   height: 30px;
+   background-color:#FF0000;
+   cursor: pointer;
+    border-radius: 20px;
+	margin-top:10px;
+}
+.adCart:hover
+{
+    
+    font-weight: bold;
+    
+}
+.Added{
+	margin-left:500px;
+	font-size: 36px;
+	color:black  ;
+	font-family:"georgia",serif;
+}
+.table{
+	margin-left:100px;
+}
+
+	
+
+
+
+.paymentpic /*footer Payment Photo*/
+{
+    width: 350px;
+    height: 50px;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.footertable /*Footer*/
+{
+ width: 1500px;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top:5px;
+ border-radius: 20px;
+ background-color: rgba(11, 28, 31, 0.452);
+}
+
+.copytex /*Footer text*/
+{
+    color: rgb(235, 232, 232);
+    text-align: center;
+    margin-left: 280px;
+    margin-right: 200px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.social/* Footer photos*/
+{
+    height: 30px;
+    width: 30px;
+    border-radius: 10px;
+    margin-right: 15px;
+    
+    
+}
+
+.social:hover
+{
+    height: 33px;
+    width: 30px;
+    box-shadow: 5px 5px  rgb(43, 42, 42);
+}
+
+.app
+{
+    height: 30px;
+    width: auto;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+.deals{
+	margin-right:1650px;
+	 margin-left: 450px;
+	font-size:60px;
+	color:black;
+    width: 500px;
+    background-color:#B2EBF2 ;
+    border-radius: 10px;
+    
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  
+}
+.del /*delet button*/
+{
+  
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+   
+   background-color:#FF0000;
+   cursor: pointer;
+ 
+}
+
+.del:hover
+{
+    
+    font-weight: bold;
+    
+}
+	

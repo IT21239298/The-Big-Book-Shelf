@@ -1,0 +1,121 @@
+.btn
+{
+	width : 400px;
+	height : 200px;
+	background-color : #3f747e;
+	border-radius : 200px;
+	font-size : 60px;
+	border : 2px solid #1f357e;
+	color: aliceblue;
+	
+	margin-left : 80px;
+}
+
+.btn a
+{
+    color: #FFFFFF;
+	text-decoration: none;
+}
+.btn:hover
+{
+	background-color : #1f357e;
+}
+.body
+{
+	
+	background-color: rgba;
+}
+.main
+{
+	width: 600px;
+	height : 600px;
+	background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+	padding-left: 10px;
+	padding-right : 10px;
+	padding-bottom: 100px;
+	padding-top: 50px;
+	margin-left:10px;
+	
+	}
+.main .upload
+{
+	width : 100px;
+	padding-left: 120px;
+	
+	position : relative;
+}
+
+.upload img 
+{
+	border-radius: 50%;
+	border: 6px solid #eaeaea;
+}
+
+.upload .round
+{
+	position : absolute;
+	bottom : 0;
+	right : 0;
+	left: 210px;
+	background : #0084ff;
+	width : 35px;
+	height: 35px;
+	line-height: 33px;
+	overflow : hidden;
+	text-align: center;
+	border-radius: 50%;
+	
+
+}
+
+.upload .round input[type="file"]
+{
+	position: absolute;
+	transform: scale(2);
+	opacity: 0;
+}
+
+input [type=file]::-webkit-file-upload-button
+{
+	cursor : pointer;
+}
+
+.second
+{
+	width: 600px;
+	height : 700px;
+	background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+	padding-left: 10px;
+	padding-right : 10px;
+	padding-bottom: 100px;
+	padding-top: 50px;
+	margin-left: 600px;
+	color: white;
+	transform: translate(-10%, -80%);
+	
+}
+.secondone
+{
+	font-style: italic;
+	padding-left: 10px;
+}
+.secondsd
+{
+	font-size: larger;
+}
+
+.third
+{
+	width: 500px;
+	height : 600px;
+	background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+	padding-left: 10px;
+	padding-right : 10px;
+	padding-bottom: 100px;
+	padding-top: 50px;
+	margin-left: 1200px;
+	color: white;
+	font-size: 20px;
+	transform: translate(-20%, -180%);
+
+}

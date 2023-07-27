@@ -1,0 +1,58 @@
+.full
+{
+  background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+  border-radius: 10px;
+  margin-top: 50px;
+   margin-right: 300px;
+  margin-bottom: 50px;
+  margin-left: 300px;
+  font-size: 20px;
+  
+}
+.backfull
+{
+	padding: 16px;
+  background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+  font-size: 15px;
+  color: #ffffff;
+}
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box}
+
+
+input[type=text], input[type=password] ,input[type=phone],input[type=email]{
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #FFFFFF;
+}
+
+input[type=radio]
+{
+	width: 10%;
+	
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+  width: 500px;
+  border-radius: 20px;
+  margin: auto;
+  color: rgb(22, 22, 22);
+  margin-top: 5px;
+}
+
+.signupbtn
+{
+    background-color: #5F9EA0;
+    color: black;
+    width: 300px;
+    margin-left: 400px;
+}
+	
+

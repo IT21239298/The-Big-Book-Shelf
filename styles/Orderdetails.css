@@ -1,0 +1,124 @@
+.btn
+{
+	width : 300px;
+	height : 100px;
+	background-color : #3f747e;
+	border-radius : 80px;
+	font-size : 30px;
+	border : 2px solid #1f357e;
+	
+	margin-left : 80px;
+}
+.btn:hover
+{
+	background-color :#1f357e;
+}
+
+.btn a
+{
+    color: #FFFFFF;
+	text-decoration: none;
+}
+
+.main
+{
+	width: 500px;
+	height : 500px;
+	padding-left: 10px;
+	padding-right : 10px;
+	padding-bottom: 100px;
+	padding-top: 100px;
+	margin-left:10px;
+	background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+}
+
+
+input [type=file]::-webkit-file-upload-button
+{
+	cursor : pointer;
+}
+
+.table-container
+{
+	width: 80%;
+	height : 600px;
+	padding-right: 10px;
+	transform: translate(40%, -90%);
+	/*background-color: cornsilk;*/
+}
+
+.heading
+{
+	font-size: 40px;
+	text-align: center;
+	color : #0c0b0b;
+	margin-bottom: 40px;
+}
+
+.table
+{
+    width : 80%;
+	margin-left: 50px;
+	margin-right: 10px;
+	border-collapse: collapse;
+}
+
+.table thead
+{
+    background-color:rgb(238, 54, 29);
+}
+
+.table thead tr th
+{
+	font-size: 22px;
+	font-weight: 600;
+	letter-spacing: 0.35px;
+	color: #FFFFFF;
+	opacity: 1;
+	padding : 12px;
+	vertical-align: top;
+	border: 2px solid #dee2e685;
+}
+
+.table tbody tr td
+{
+	font-size: 20px;
+	font-weight: normal;
+	letter-spacing: 0.35px;
+	color: #f1f1f1;
+	background-color: #3c3f44;
+	padding : 8px;
+	text-align: center;
+	border: 2px solid #dee2e685;
+}
+
+.table .text_open
+{
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 0.35px;
+	color: #f1f1f1;
+}
+
+.table tbody tr td .btn
+{
+	width: 200px;
+	height: 80px;
+	padding-top: 20px;
+	text-decoration: none;
+	line-height: 35px;
+	display : block;
+	background-color: #ff8410da;
+	color: #FFFFFF;
+	font-weight: medium;
+	text-align: center;
+	/*font-variant: middle;*/
+	user-select: none;
+	border: 2px solid transparent;
+	font-size: 20px;
+	opacity: 1;
+}
+.table tbody tr td .btn:hover
+{
+	background-color : #992e13;
+}

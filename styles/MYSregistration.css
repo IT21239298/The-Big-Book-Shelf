@@ -1,0 +1,67 @@
+.full
+{
+  background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+  border-radius: 10px;
+  margin-top: 50px;
+   margin-right: 300px;
+  margin-bottom: 50px;
+  margin-left: 300px;
+  font-size:20px;
+  
+}
+.backfull
+{
+	padding: 16px;
+  background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+  font-size: 15px;
+  color: #ffffff;
+}
+
+.second
+{
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+}
+.fulsec
+{
+  background-color:#A9A9A9;
+  border-radius: 10px;
+  margin-top: 50px;
+   margin-right: 300px;
+  margin-bottom: 50px;
+  margin-left: 300px;
+  font-size:20px;
+  
+}
+.backsecond
+{
+	padding: 16px;
+  background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+  font-size: 15px;
+  color: #ffffff;
+}
+
+.signupbtn
+{
+    background-color: #5F9EA0;
+    color: black;
+    width: 300px;
+    margin-left: 400px;
+}
+
+input[type=radio]
+{
+	width: 10%;
+	
+}
+
+input[type=text], input[type=password] ,input[type=phone],input[type=email]{
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #FFFFFF;
+}

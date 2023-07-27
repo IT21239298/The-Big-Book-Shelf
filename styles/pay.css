@@ -1,0 +1,93 @@
+body
+{
+   background-image: url("../image/payback.jpg");
+   background-repeat:no-repeat;
+   background-size:100% ;
+}
+.cardpic{
+    width: 250px;
+    height: 40px;
+    
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.title1{
+	font-family:"Arial, Helvetica", sans-serif;
+    font-size: 25px;
+    font-weight:800;
+}
+.pagebody {
+    
+    height: 100px;
+    font-family:"Lucida Console", "Courier New", monospace;
+    font-size: 15px;
+    font-weight:500;
+    padding: 8px;
+}
+
+
+.row1 {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 0 -16px;
+}
+
+
+
+.col-50 {
+    -ms-flex: 100%;
+    flex: 25%;
+}
+
+.col-75 {
+    -ms-flex: 100%;
+    flex: 75%;
+}
+
+.col-75,
+.col-50,
+ {
+    padding: 0 16px;
+}
+.container {
+   
+    padding: 10px 150px 10px 500px;
+    border-radius: 3px;
+}
+
+
+input {
+    width: 75%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #522f19;
+    border-radius: 5px;
+}
+
+label {
+    margin-bottom: 10px;
+    display: block;
+}
+.submit-btn
+{
+  margin-right: 200px;
+  color:black;
+  display: inline-block;
+  padding: 10px 30px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  background-color: #81D4FA;
+  border: none;
+ 
+ 
+}
+.submit-btn:hover{
+  background-color: #1E88E5 ;
+ 
+}
+

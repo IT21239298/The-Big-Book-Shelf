@@ -1,0 +1,139 @@
+.main
+{
+	width: 500px;
+	height : 700px;
+	background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+	padding-left: 10px;
+	padding-right : 10px;
+	padding-bottom: 100px;
+	padding-top: 50px;
+	margin-left:10px;
+}
+
+.btn
+{
+	width : 300px;
+	height : 100px;
+	background-color : #3f747e;
+	border-radius : 80px;
+	font-size : 30px;
+	border : 2px solid #1f357e;
+	
+	
+	margin-left : 80px;
+}
+.btn a
+{
+    color: #FFFFFF;
+	text-decoration: none;
+}
+{
+    color: #FFFFFF;
+	text-decoration: none;
+}
+.btn:hover
+{
+	background-color :#1f357e;
+}
+
+.main .upload
+{
+	width : 100px;
+	padding-left: 120px;
+	
+	position : relative;
+}
+
+.upload img 
+{
+	border-radius: 50%;
+	border: 6px solid #eaeaea;
+}
+
+.upload .round
+{
+	position : absolute;
+	bottom : 0;
+	right : 0;
+	left: 210px;
+	background : #0084ff;
+	width : 35px;
+	height: 35px;
+	line-height: 33px;
+	overflow : hidden;
+	text-align: center;
+	border-radius: 50%;
+
+}
+
+.upload .round input[type="file"]
+{
+	position: absolute;
+	transform: scale(2);
+	opacity: 0;
+}
+
+input [type=file]::-webkit-file-upload-button
+{
+	cursor : pointer;
+}
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box}
+
+.fullnew
+{
+ background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+  border-radius: 10px;
+  margin-top: 50px;
+   margin-right: 300px;
+  margin-bottom: 50px;
+  margin-left: 300px;
+  font-size: 20px;
+  transform: translate(14%, -42%);
+  
+}
+.backfull
+{
+	padding: 16px;
+  background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+  font-size: 15px;
+  color: #ffffff;
+}
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box}
+
+
+input[type=text], input[type=password] ,input[type=phone],input[type=email]{
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #FFFFFF;
+}
+
+input[type=radio]
+{
+	width: 10%;
+	
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+  width: 500px;
+  border-radius: 20px;
+  margin: auto;
+  color: rgb(22, 22, 22);
+  margin-top: 5px;
+}
+
+.signupbtn
+{
+    background-color: #5F9EA0;
+    color: black;
+    width: 300px;
+    margin-left: 400px;
+}
